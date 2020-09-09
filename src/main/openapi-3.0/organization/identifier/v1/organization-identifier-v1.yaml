@@ -7,7 +7,7 @@ paths: {}
 components:
   schemas:
     CbeNumber:
-      description: Identifier issued by CBE for either a site (establishment unit) or a registered organization
+      description: Identifier issued by CBE for either an organization or a site (establishment) of an organization
       type: string
       pattern: '^[0-8]\d{9}$'
       #TODO: synchronize descriptions with vocabularies
