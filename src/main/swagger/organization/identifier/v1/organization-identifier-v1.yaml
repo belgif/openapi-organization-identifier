@@ -8,7 +8,7 @@ definitions:
     description: Identifier issued by CBE for either an organization or a site (establishment) of an organization
     type: string
     pattern: '^[0-8]\d{9}$'
-    #TODO: synchronize descriptions with vocabularies
+    x-deprecated: true # Use either EnterpriseNumber or EstablishmentUnitNumber, as two separate properties if needed
   EnterpriseNumber:
     description: Identifier issued by CBE for a registered organization
     type: string
