@@ -15,7 +15,7 @@ definitions:
   EnterpriseNumber:
     description: Identifier issued by CBE for a registered organization
     type: string
-    pattern: '^[0|1]\d{9}$'
+    pattern: '^[0-1]\d{9}$'
   EstablishmentUnitNumber:
     description: Identifier issued by CBE for a site (establishment) of an organization 
     type: string
