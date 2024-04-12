@@ -20,3 +20,7 @@ definitions:
     description: Identifier issued by CBE for a site (establishment) of an organization 
     type: string
     pattern: '^[2-8]\d{9}$'
+  VatNumber:
+    description: An international Value-Added Tax Identification Number or VAT Identification Number (VATIN)
+    type: string
+    pattern: '^[A-Z]{2}.+$' # Starts with ISO 3166-1 alpha-2 country code, followed by 1 or more characters in a country-specific format
